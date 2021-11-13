@@ -1,5 +1,8 @@
 # Determining-Support-for-Rumours-using-LSTM-with-Glove
 
+## Global Vectors for Word Representation:
+Download respective word embedding from here- https://nlp.stanford.edu/projects/glove/
+
 ## Problem Definition and Review
 Social media has gradually evolved over the last 15 years to become a primary source of news. Social media, on the other hand, has become fertile ground for rumours, spreading them in a matter of minutes. An assertion that could be genuine or incorrect is classified as a rumour. False rumours can have a significant impact on a society's social, economic, and political stability, necessitating the development of tools to assist people, particularly journalists, in analysing the propagation of rumours and their impact on society, as well as determining their truth. Because Twitter and Reddit are two well-known social media platforms capable of disseminating breaking news, most rumour-related research employs the Twitter and reddit feed as a starting point, hence giving us the scope and space to build solutions for this problem and that is what I will be designing. 
 I have done total of 4 literature reviews [1,2,3,4] for this task including the one in canvas. These all are directly based on determining rumour and veracity on mainly twitter, reddit and some on the other dataset as well. They have practiced different evaluation measures, feature selection technique and text pre-processing steps accordingly for support and veracity classification and the dataset in their papers. I read and gained some insights and added my knowledge to these and designed my algorithm as we have less train data and so said for the limitation of this, we can start to build a simple model that can be scaled in future.
